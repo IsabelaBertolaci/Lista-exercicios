@@ -2,7 +2,7 @@ body {
     font-family:"Poppins", sans-serif;
     padding: 20px;
     background-color: #d9b0d9;
-        display: flex;             /* ativa o flexbox */
+    display: flex;             /* ativa o flexbox */
     justify-content: center;   /* centraliza horizontalmente */
     align-items: center;       /* centraliza verticalmente */
     height: 100vh;             /* altura total da tela */
