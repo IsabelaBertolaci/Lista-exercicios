@@ -1,0 +1,86 @@
+body {
+    font-family:"Poppins", sans-serif;
+    padding: 20px;
+    background-color: #d9b0d9;
+        display: flex;             /* ativa o flexbox */
+    justify-content: center;   /* centraliza horizontalmente */
+    align-items: center;       /* centraliza verticalmente */
+    height: 100vh;             /* altura total da tela */
+    margin: 0;                 /* remove margens padrão */
+    flex-direction: column;
+}
+
+h1{
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+label, button, select {
+    padding: 8px;
+    margin: 5px 0;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+select{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.caixa{
+    background-color: #ffdaff;
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+    height: 63vh;
+    width: 50vh;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.valor{
+    font-size: 1.3rem;
+
+}
+
+p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+button{
+    background-color: #8e5c8c;
+    margin-left: 6px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.1s;
+    color: white;
+}
+
+button:hover{
+    background-color: #683266;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.voltar {
+  background-color: #8e5c8c;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-family: "Poppins", sans-serif;
+  transition: 0.1s;
+  margin-top: 10px;   /* distância da caixa */
+
+}
+
+.voltar:hover {
+  background-color: #683266;
+  transform: scale(1.05);
+}
