@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Medalhas de Natação</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="caixa">
+    <h1>Medalhas de Natação</h1>
+
+    <div class="caixa-conteudo">
+      <div class="caixinha1">
+        <h2>Tempos</h2>
+        <div class="t1">
+          <label for="t1">Tempo do nadador 1:</label>
+          <input type="number" id="t1">
+        </div>
+
+        <div class="t2">
+          <label for="t2">Tempo do nadador 2:</label>
+          <input type="number" id="t2">
+        </div>
+
+        <div class="t3">
+          <label for="t3">Tempo do nadador 3:</label>
+          <input type="number" id="t3">
+        </div>
+      </div>
+
+      <button onclick="calcularMedalhas()" class="botao">Ver resultado</button>
+
+      <div class="caixinha2">
+        <h2>Ranking</h2>
+        <div class="resultado" id="resultado"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <button class="voltar" onclick="voltar()">Voltar</button>
+    
+</body>
+</html>

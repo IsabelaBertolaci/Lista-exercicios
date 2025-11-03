@@ -1,0 +1,113 @@
+body {
+    font-family:"Poppins", sans-serif;
+    padding: 0;
+    background-color: #d9b0d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.caixa {
+    background-color: #ffdaff;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    height: 63vh;
+    width: 80%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.caixa h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.caixa-conteudo {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center; /* centraliza o botão verticalmente entre as caixinhas */
+    margin-bottom: 20px;
+}
+
+.caixinha1, .caixinha2 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.t1, .t2, .t3 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin-left: 145px;
+    margin-bottom: 20px;
+
+}
+
+.botao {
+    background-color: #8e5c8c;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.1s;
+    font-size: 1.7rem;
+    padding: 15px 20px;
+    font-family:"Poppins", sans-serif;
+}
+
+.botao:hover {
+    background-color: #683266;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.resultado {
+    font-size: 1.6rem;
+    min-height: 130px;
+    max-width: 300px;
+    background-color: #8e5c8c;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    margin-left: 23%;
+    padding-top: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.voltar {
+    background-color: #8e5c8c;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-family: "Poppins", sans-serif;
+    transition: 0.1s;
+    margin-top: 10px;
+}
+
+.voltar:hover {
+    background-color: #683266;
+    transform: scale(1.05);
+}
