@@ -1,0 +1,92 @@
+body {
+    font-family:"Poppins", sans-serif;
+    padding: 20px;
+    background-color: #d9b0d9;
+    display: flex;          
+    justify-content: center;
+    align-items: center;       
+    height: 100vh;             
+    margin: 0;                
+    flex-direction: column;
+}
+
+h1{
+    align-items: center;
+    font-size: 2.3rem;
+}
+
+label, button {
+    padding: 8px;
+    margin: 5px 0;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: none;
+}
+
+input{
+    border: none;
+    border-radius: 10px;
+    padding: 0.3rem;
+    font-size: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+}
+
+span{
+    font-size: 1.7rem;
+    font-weight:800;
+
+}
+.caixa{
+    background-color: #ffdaff;
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+    height: 63vh;
+    width: 50vh;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+p {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+button{
+    background-color: #8e5c8c;
+    margin-left: 6px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.1s;
+    color: white;
+    font-family:"Poppins", sans-serif;
+}
+
+button:hover{
+    background-color: #683266;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.voltar {
+  background-color: #8e5c8c;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-family: "Poppins", sans-serif;
+  transition: 0.1s;
+  margin-top: 10px;   /* distância da caixa */
+
+}
+
+.voltar:hover {
+  background-color: #683266;
+  transform: scale(1.05);
+}
